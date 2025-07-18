@@ -77,7 +77,7 @@ function jugarAhorcado(palabra, intentos,nivel) {
         }
 
         letra = letra.toLowerCase();
-        const letraValida = 'abcdefghijkmnopqrstuvwxyz'; 
+        const letraValida = 'abcdefghijklmnopqrstuvwxyz'; 
         if (letra.length !== 1 || !letraValida.includes(letra)) {
             alert("Ingresa solo una letra válida.");
             continue;
